@@ -1,7 +1,7 @@
 module pc (
     input logic [31:0]next_pc,
-    input clk,
-    input reset,
+    input logic clk,
+    input logic reset,
     output logic [31:0]pc
 
 );
